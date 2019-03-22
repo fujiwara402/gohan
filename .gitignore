@@ -1,4 +1,4 @@
 gohan
 meshibot
 env.list
-*/.secret.env
+.secret.env
