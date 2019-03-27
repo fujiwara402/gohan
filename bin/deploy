@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+gcloud functions deploy gohan \
+  --entry-point HelloCommand \
+  --runtime go111 \
+  --trigger-http
